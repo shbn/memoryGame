@@ -3,7 +3,7 @@ System Requirements
 -------------------
 
 1. Web server with PHP and MYSQL support. 
-2. Web browser with javascript support.	
+2. Web browser with JavaScript support.	
 
 ----------------
 Package Contents 
@@ -13,7 +13,7 @@ Package Contents
 		a. index.php  - Index file for the application. 
 		b. form.php - Form handler which stores game scores to database.
 		c. mysql.php - This file contains database connectivity settings.
-2. Javascipt file - script.js
+2. JavaScript file - script.js
 3. CSS - style.css
 4. SQL - memorygame.sql  - MySQL table schema for storing scores.
 4. image folder - /img
@@ -23,7 +23,7 @@ Package Contents
 Installation
 -------------
 
-1. Unzip the zip folder and upload to a webserver directory. Follw same folder structure.
+1. Unzip the zip folder and upload to a webserver directory. Follow same folder structure.
 
 2. Create a database and import/execute mysql schema file (memorygame.sql).
 
