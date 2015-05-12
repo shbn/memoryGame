@@ -1,0 +1,145 @@
+body{
+	  font-family: Arial;
+	  font-size:12pt;
+}
+.container {
+	width:100%;
+	max-width: 720px;
+	border: 1px solid #eee;
+	background:#FAFDEE;
+	margin:0 auto;
+	height:520px;
+	padding:30px 30px;
+	box-sizing:border-box;
+}
+
+.container .blockLeft {
+	float:left;
+	color: #8E2929;
+}
+.container .blockRight {
+	width:30%;
+	float:left;
+	text-align:center;
+	padding-left:30px;
+}
+
+.myButton,
+.myButton:active,
+.myButton:focus{
+	text-transform:uppercase;
+	background-color:#ff5910;
+	color:#000;
+	margin:20px auto;
+	padding:12px 30px;
+	border:none;
+	font-size:12pt;
+}
+
+ .myButton:hover{
+	background-color:#ff4340;
+}	
+.container .blockRight p{
+	font-size:11pt;
+	color:#888;
+	text-align:left;
+}
+
+.container .blockRight p.scoreCard {
+	font-size:22pt;
+	font-weight:bold;
+	color:#ff5910	
+}
+
+.container .blockRight p.button{
+	text-align:center;
+}
+#cardCont {
+	width:400px;
+	height:400px;	
+}	
+#cardCont .cell{
+	width:100px;
+	height:100px;
+	background:#ddd;
+	float:left;
+	border:1px solid #fff;
+	box-sizing:border-box;
+	background-image: url('img/card_bg.gif');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#cardCont .cell.selected{
+	border:1px solid #000;
+	
+}
+#cardCont .cell .card{
+	width:100%;
+	height:80px;
+	
+	
+}
+.submitFormResponse{
+	width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  background: #fff;
+  padding: 40px;
+  left: 30%;
+  top: 10%;
+  border: 1px solid #ccc;
+  display:none;
+  text-align:center;
+  box-sizing:border-box;
+}
+.submitForm {
+	width: 40%;
+  margin: 0 auto;
+  position: absolute;
+  background: #fff;
+  padding: 40px;
+  left: 30%;
+  top: 10%;
+  border: 1px solid #ccc;
+  display:none;
+  text-align:center;
+  box-sizing:border-box;
+}
+.submitForm h2{
+	color:#888
+	
+}
+.submitFormResponse p,
+.submitForm p{
+	color:#888;
+	font-size:12pt;
+}
+.submitForm input[type="text"],
+.submitForm input[type="email"]{
+	padding: 5px 10px;
+  font-size: 12px;
+  width: 150px;
+}
+
+.disable{
+	opacity:.3;
+}
+
+	
+@media (max-width: 750px) {
+	.container .blockLeft {
+		width:100%;
+	}
+	.container .blockRight {
+		width:100%;
+	}
+	.submitForm {
+		width:80%;
+		left:20%;
+	}
+}
+	
+}
+@media (max-width: 450px) {
+	
+}
